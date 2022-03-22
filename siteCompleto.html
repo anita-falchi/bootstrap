@@ -23,7 +23,7 @@
   <!--Navbar-->
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">dreamy</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -32,24 +32,24 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-expanded="false">
-            Dropdown
+            go to
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Cards</a>
-            <a class="dropdown-item" href="#">Text and video</a>
+            <a class="dropdown-item" href="#cards">Cards</a>
+            <a class="dropdown-item" href="#texto">Text and video</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Contact</a>
+            <a class="dropdown-item" href="#contato">Contact</a>
           </div>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <input class="form-control mr-sm-2" type="search" placeholder="where is it?" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">where?</button>
       </form>
     </div>
   </nav>
@@ -98,13 +98,13 @@
   <!--/Jumbotron-->
 
   <!--Cards-->
-  <div class="container">
+  <div class="container" id="cards">
     <div class="card-columns">
       <div class="card">
         <img src="assets/img/lambivel.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Lambivel</h5>
-          <p class="card-text">Águas médianamente profundas, sem filtros. Registro feito com ipod'</p>
+          <p class="card-text">Águas medianamente profundas, sem filtros. Registro feito com ipod'</p>
         </div>
       </div>
       <div class="card p-3">
@@ -129,16 +129,16 @@
       </div>
       <div class="card">
         <img src="assets/img/mar.jpeg" class="card-img" alt="...">
-        <footer class="blockquote-footer">
-          <small class="text-muted text-right ">
-             <cite title="Source Title text-right">rio das ostras, praticamente ontem </cite>
+        <footer class="blockquote-footer text-right">
+          <small class="text-muted"> 
+             <cite title="Source Title">rio das ostras, praticamente ontem </cite>
           </small>
       </div>
       <div class="card">
         <img src="assets/img/POLVO.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Osvaldo, o polvo</h5>
-          <p class="card-text">sounds de polvo.</p>
+          <p class="card-text">um quadrinho sonoro, mas que agora ta sem som.</p>
         </div>
       </div>
       <div class="card bg-dark text-white text-center p-3">
@@ -152,9 +152,9 @@
 
     <!--Texto e Video-->
 
-    <div class="row mt-5 mb-5">
-      <div class="col-md-6">
-        <h3>Procurando um texto</h3>
+    <div class="row mt-5 mb-5" id="texto">
+      <div class="col-md-6 ali">
+        <h3>Imagens bonitas ao lado</h3>
         <p>Umas imagens bonitas ai de natureza ao lado para apreciação, oh, o ar puro, uuuuh.
          </p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nostrum eveniet ex officiis. Aliquid,
@@ -174,7 +174,7 @@
 
     <!--Formulario de contato-->
 
-    <div class="row mb-5">
+    <div class="row mb-5" id="contato">
       <div class="col-md-12">
         <h4 class="text-center">
           Entre em contato
@@ -191,7 +191,7 @@
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">gostou de alguma coisa? é? qual?</label>
+              <label for="exampleFormControlTextarea1">gostou de alguma coisa foi? qual?</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="form-group d-flex justify-content-end ">
